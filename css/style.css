@@ -302,6 +302,13 @@
     background-size: cover;
 }
 
+@import url('../img/favicon.svg');
+
+link[rel="icon"] {
+    content: url('../img/favicon.svg');
+}
+
+
 .page-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--bs-white);
 }
